@@ -1,7 +1,12 @@
+import Header from "./components/Header";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Header />
+      <main className="p-4">
+        <p>Добро пожаловать на мой сайт!</p>
+      </main>
+    </div>
+  );
 }
