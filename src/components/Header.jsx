@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/icons/Logo.png";
+import logo from "../assets/icons/logo.png";
 import Button from "../components/Button";
 import Link from "../components/Link";
 
 const Header = () => {
   return (
     <header>
-      <div className="container mx-auto">
+      <div className="container mx-auto py-6 sm:py-12 px-3 sm:px-4">
         <div className="flex items-center justify-between">
           {/* logo */}
           <div className="flex items-center justify-center">
@@ -16,7 +16,7 @@ const Header = () => {
           </div>
 
           {/* nav */}
-          <nav className="flex items-center">
+          <nav className="hidden items-center md:flex">
             <ul className="flex items-center justify-between gap-9">
               <li>
                 <Link
