@@ -4,7 +4,7 @@ import Button from "../components/Button";
 const Hero = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex max-sm:flex-col items-center justify-center ml-3">
+      <div className="flex max-sm:flex-col items-center justify-between ml-3">
         {/* left side */}
         <div className="w-full max-w-[510px] flex gap-8 flex-col">
           <h1 className="font-semibold text-[54px]">
