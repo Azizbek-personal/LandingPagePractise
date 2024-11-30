@@ -3,7 +3,7 @@ import Link from '../components/Link';
 
 const Solution = () => {
   return (
-    <div className="mt-[110px] mb-[145px]">
+    <div className="my-[110px]">
       <div className="container mx-auto">
         <div className='flex gap-20 items-center'>
           {/* leftside */}
