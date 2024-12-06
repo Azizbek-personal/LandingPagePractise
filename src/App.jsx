@@ -4,6 +4,7 @@ import Partner from "./components/Partner";
 import Solution from "./components/Solution";
 import Analys from "./components/Analys.jsx";
 import Security from "./components/Security.jsx";
+import Software from "./components/Software.jsx";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
       </section>
       <section>
         <Security />
+      </section>
+      <section>
+        <Software />
       </section>
     </div>
   );
