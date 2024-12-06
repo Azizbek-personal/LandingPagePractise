@@ -6,7 +6,7 @@ import Link from "../components/Link";
 const Header = () => {
   return (
     <header>
-      <div className="container mx-auto py-6 sm:py-12 px-3 sm:px-4">
+      <div className="container max-w-[1200px] w-full  mx-auto py-6 sm:py-12 px-3 sm:px-4">
         <div className="flex items-center justify-between">
           {/* logo */}
           <div className="flex items-center justify-center">

@@ -7,7 +7,7 @@ import hubspot from "../assets/images/hubspot.png";
 const Partner = () => {
   return (
     <div className="bg-[#8EE6C9]/10">
-      <div className="container mx-auto ">
+      <div className="container max-w-[1200px] w-full  mx-auto ">
         <div className="flex item-center justify-between py-[54px] w-full">
           <img src={google} alt="Google logo" width={170} height={57} />
           <img src={avast} alt="Avast logo" width={170} height={54} />
