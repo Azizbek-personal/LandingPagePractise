@@ -3,8 +3,8 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <div className="flex max-sm:flex-col items-center justify-between ml-3">
+    <div className="container max-w-[1375px] w-full mx-auto ml-[210px]">
+      <div className="flex max-sm:flex-col items-center justify-end ml-3">
         {/* left side */}
         <div className="w-full max-w-[510px] flex gap-8 flex-col">
           <h1 className="font-semibold text-[54px]">
@@ -29,7 +29,7 @@ const Hero = () => {
           {/* download buttons */}
           <div className="flex items-center gap-[30px]">
             <div className="flex items-center gap-4">
-              <i class="fa-brands fa-google-play text-xl"></i>
+              <i className="fa-brands fa-google-play text-xl"></i>
               <div className="flex flex-col items-start">
                 <p className="text-[8px] -tracking-[4%] ">Android App on</p>
                 <p className="text-base">GOOGLE PLAY</p>
@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <i class="fa-brands fa-apple text-3xl"></i>
+              <i className="fa-brands fa-apple text-3xl"></i>
               <div className="flex flex-col items-start">
                 <p className="text-[8px] -tracking-[4%] ">Available on the</p>
                 <p className="text-base">APPLE STORE</p>
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         {/* right side  */}
-        <div className="w-full max-w-[870px]">
+        <div className="w-full max-w-[875px]">
           <img src={heroimage} alt="Hero Image" />
         </div>
       </div>
