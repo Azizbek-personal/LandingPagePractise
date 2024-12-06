@@ -39,7 +39,7 @@ const Analys = () => {
           <img
             src={AnalysImage}
             alt="analys image "
-            className="w-[595px] h-[470px] object-cover"
+            className="w-[595px] object-cover"
           />
         </div>
       </div>
