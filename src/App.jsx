@@ -5,6 +5,7 @@ import Solution from "./components/Solution";
 import Analys from "./components/Analys.jsx";
 import Security from "./components/Security.jsx";
 import Software from "./components/Software.jsx";
+import Pricing from "./components/Pricing.jsx";
 
 export default function App() {
   return (
@@ -29,6 +30,9 @@ export default function App() {
       </section>
       <section>
         <Software />
+      </section>
+      <section>
+        <Pricing />
       </section>
     </div>
   );
